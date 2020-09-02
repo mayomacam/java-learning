@@ -1,0 +1,7 @@
+ object is a real world entity
+
+object is an instance of a class
+
+object consumes memory to hold property values
+
+ 

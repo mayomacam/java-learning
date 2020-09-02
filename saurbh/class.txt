@@ -1,0 +1,6 @@
+class is a description of an object's proerty and behaviour
+
+creating class is as good as creating data typa
+
+class is defining a catefory of data
+

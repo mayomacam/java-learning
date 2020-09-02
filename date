@@ -1,0 +1,26 @@
+java 7
+
+import java.time.LocalDate;
+...
+//String month = in.next();
+int mm = in.nextInt();
+//String day = in.next();
+int dd = in.nextInt();
+//String year = in.next();
+int yy = in.nextInt();
+in.close();
+LocalDate dt = LocalDate.of(yy, mm, dd);
+System.out.print(dt.getDayOfWeek());
+
+
+getDay()
+this function use to get name of day
+
+
+java 8
+for this we have to use java.time.LocalDate;
+then
+return LocalDate.of(year, month, day).getDayOfWeek().name();
+
+
+

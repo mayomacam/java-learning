@@ -1,0 +1,24 @@
+import java.util.Scanner;
+import static java.lang.Math.*;
+public class time
+{
+    public static void main(String[] args)
+    {
+        Scanner scan= new Scanner(System.in);
+        System.out.println("Enter seconds = ");
+        int time = scan.nextInt();
+        int min = (time/60);
+        int hours=0;
+        int second= (time - (min*60));
+        if(min<=59)
+        {
+            System.out.println(hours + " hours "+min +" minutes "+ second + " seconds \n");
+        }
+        else
+        {
+            hours = (min/60);
+            int minute= (min- (hours*60));
+            System.out.println(hours + " hours "+minute +" minutes "+ second + " seconds \n");
+        }
+    }
+}

@@ -1,0 +1,49 @@
+hasNext()
+
+by using we check token 
+or we can use if there any more data then take that data and print that
+
+@==========================================================================================
+
+Static initialization blocks
+
+it is use to set that static varible that can be used one time for each instance
+ public static int capacity = 10;
+
+A static initialization block is a normal block of code enclosed in braces, { }, and preceded by the static keyword. Here is an example:
+
+static {
+    // whatever code is needed for initialization goes here
+}
+
+
+A class can have any number of static initialization blocks, and they can appear anywhere in the class body. The runtime system guarantees that static initialization blocks are called in the order that they appear in the source code.
+
+There is an alternative to static blocks — you can write a private static method:
+
+class Whatever {
+    public static varType myVar = initializeClassVariable();
+        
+    private static varType initializeClassVariable() {
+
+        // initialization code goes here
+    }
+}
+
+The advantage of private static methods is that they can be reused later if you need to reinitialize the class variable.
+
+example  like:
+static boolean flag = true; static int B,H;
+static{
+    Scanner s=new Scanner(System.in);
+     B = s.nextInt();
+    H = s.nextInt();
+
+
+#==========================================================================================
+
+
+
+#============================================================================================
+
+

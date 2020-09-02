@@ -1,0 +1,22 @@
+ public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+        int i = scan.nextInt();
+        double d= scan.nextDouble();
+        scan.nextLine();
+        String s=scan.nextLine();
+
+
+here Scanner module for input 
+
+for integer we can normally use scan.nextInt() for input , we don't need a nextline function to make function take second input for second input function
+
+
+for double we use scan.nextDouble() for input , but we need a nextline funtion for stop talking function of next 
+
+ 
+for string it's differ because for string we can use two type of function like
+1. scan.next()   ;- for single string word input 
+
+2. scan.nextLine()  ;- for single line input as a input
+
+and output are same as normal.

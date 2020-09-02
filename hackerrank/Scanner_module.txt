@@ -1,0 +1,6 @@
+java.util.Scanner
+
+:---class skips input that matches the specified pattern, ignoring the delimiters. The function skips the input if an anchored match of the specified pattern succeeds it.
+
+#============================================================================================
+

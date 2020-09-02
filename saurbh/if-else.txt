@@ -1,0 +1,53 @@
+
+    if statement
+    if-else statement
+    if-else-if ladder
+    nested if statement
+#=======================================================================================================
+
+The Java if statement is used to test the condition. It checks boolean condition: true or false
+
+#=======================================================================================================
+if statement
+
+if(condition){}
+
+#=======================================================================================================
+if-else statement
+
+    if(condition){  
+    //code if condition is true  
+    }else{  
+    //code if condition is false  
+    }  
+
+#=======================================================================================================
+
+if-else-if ladder Statement
+
+    if(condition1){  
+    //code to be executed if condition1 is true  
+    }else if(condition2){  
+    //code to be executed if condition2 is true  
+    }  
+    else if(condition3){  
+    //code to be executed if condition3 is true  
+    }  
+    ...  
+    else{  
+    //code to be executed if all the conditions are false  
+    }  
+
+#=======================================================================================================
+
+Nested if statement
+
+    if(condition){    
+         //code to be executed    
+              if(condition){  
+                 //code to be executed    
+        }    
+    }  
+
+#=======================================================================================================
+
